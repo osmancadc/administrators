@@ -11,7 +11,7 @@ Install the dependencies and devDependencies and start the server.
 ### Manual installation
 
 ```sh
-cd admins
+cd administrators
 go mod init admins
 go mod tidy
 ```
@@ -26,7 +26,7 @@ go run .
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd admins
+cd administrators
 docker build --tag docker-admin .
 ```
 Run the server
